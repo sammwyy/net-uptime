@@ -1,0 +1,16 @@
+{
+    "app": {
+        "name": "Your Server Name",
+        "description": "Real-time microservices status monitor for ArkFlame Network.",
+        "icon": "/icon.png"
+    },
+
+    "security": {
+        "hide_ports": true,
+        "hide_address": false
+    },
+
+    "monitor": {
+        "check_interval": 60
+    }
+}

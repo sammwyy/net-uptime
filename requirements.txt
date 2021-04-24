@@ -1,0 +1,3 @@
+Flask==1.1.2
+tcp-latency==0.0.10
+icmplib==2.1.1

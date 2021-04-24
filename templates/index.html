@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} - Status</title>
+    <meta name="description" content="{{description}}">
+    <link rel="shortcut icon" href="{{icon}}" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-brand">
+            <div style="display: inline-flex; align-items: center;">
+                <img src="{{icon}}" style="width: 64px; margin-right: 15px;" /> 
+                <div style="display: inline-block;">
+                    <h1>{{title}}</h1>
+                    <span>Powered by <a href="https://github.com/sammwyy/net-uptime">Net Uptime</a></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nav-buttons">
+            <button onclick="refresh()">Update</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="services" id="services">
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

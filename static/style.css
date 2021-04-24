@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px 50px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-brand,
+.nav-buttons {
+    display: inline-block;
+    width: calc(50% - 50px);
+}
+
+.nav-buttons {
+    text-align: right;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+a {
+    color: rgb(255, 196, 77);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(255, 196, 77);
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #333;
+    font-size: 18px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 5px 8px -5px, rgb(0 0 0 / 25%) 0px 2px 15px -2px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.services {
+    margin: auto;
+    width: 100%;
+}
+
+.service {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    max-width: 400px;
+    height: 120px;
+    background-color: #eee;
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.service:hover {
+    transform: scale(1.05);
+    transition: all .2s ease-in-out;
+}
+
+.service-header {
+    display: flex;
+    align-items: center;
+}
+
+.service-icon {
+    width: 64px;
+}
+
+.service-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service-presentation {
+    padding-left: 10px;
+}
+
+.service-ping {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 6px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.player-count {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 0;
+}
+
+.service-ping-bad {
+    background-color: red;
+}
+
+.service-ping-excellent {
+    background-color: skyblue;
+}
+
+.service-ping-good {
+    background-color: greenyellow;
+}
+
+.service-ping-normal {
+    background-color: yellow;
+}
+
+.service-ping-dead {
+    background-color: red;
+}
+
+.service-footer {
+    color: #333;
+    margin-top: 10px;
+}
+
+.chart-item {
+    margin: 5px 0;
+    min-width: 5px;
+    display: inline-block;
+}
+
+.chart-item-excellent {
+    background-color: skyblue;
+    color: skyblue;
+}
+
+.chart-item-good {
+    background-color: greenyellow;
+    color: greenyellow;
+}
+
+.chart-item-normal {
+    background-color: yellow;
+    color: yellow;
+}
+
+.chart-item-bad {
+    background-color: orange;
+    color: orange;
+}
+
+.chart-item-dead {
+    background-color: red;
+    color: red;
+}
+
+.chart-item-nodata {
+    background-color: rgb(173, 173, 173);
+    color: rgb(173, 173, 173);
+}
