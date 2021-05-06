@@ -36,7 +36,7 @@ class Pinger:
             if len(service["history"]) >= 42:
                 service["history"].pop(0)
 
-            service["history"].append(result["ping"])
+            service["history"].append(result)
 
             if self.config.is_hide_port():
                 data["port"] = "hidden"

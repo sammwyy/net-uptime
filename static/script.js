@@ -37,7 +37,7 @@ function addService (service) {
     const chart = [];
 
     for (let i = 0; i < 42; i++) {
-        let item = history[i];
+        let item = history[i].ping;
 
         chart.push(`
             <div class="chart-item chart-item-${getColorFromPing(item)}">.</div>
